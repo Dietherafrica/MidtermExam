@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sports Car</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .Bugatti {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .Bugatti video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        h1 {
+            color: #877474;
+            font-size: 30px;
+            text-align: center;
+        }
+        .m2{
+            font-size: 40px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        li a {
+            font-size: 20px;
+            color: #877474;
+            text-decoration: none;
+            padding: 10px 30px;
+            transition: 0.5s;
+        }
+        li a:hover {
+            font-size: 23px;
+            background-color: #b5a2a2;
+        }
+        .car-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 50px;
+        }
+        .car-item {
+            text-align: center;
+        }
+        .car-item img {
+            width: 500px;
+            height: auto;
+            border:double 5px #877474;
+        }
+        .footer {
+            background-color: #877474;
+            text-align: center;
+            padding: 10px;
+            color: white;
+            font-size: 18px;
+        }
+     </style>
+</head>
+<body>
+    <h1>SPORTS CAR</h1>
+    <ul>
+        <li><a href="https://www.bugatti.com/">Bugatti</a></li>
+        <li><a href="https://www.lamborghini.com">Lamborghini</a></li>
+        <li><a href="https://www.ferrari.com">Ferrari</a></li>
+        <li><a href="https://cars.mclaren.com">McLaren</a></li>
+        <li><a href="https://www.porsche.com">Porsche</a></li>
+    </ul>
+    <div class="Bugatti">
+        <video autoplay loop muted>
+            <source src="Untitled video - Made with Clipchamp (1).mp4" type="video/mp4">
+        </video>
+    </div>
+    <h1 class="m2">Click Here For More Info</h1>
+    <div class="car-container">
+        <div class="car-item">
+            <h1>Bugatti Tourbillon</h1>
+            <a href="https://www.bugatti.com/en/models/tourbillon" target="_blank">
+                <img src="Bugatti_Tourbillon_A_Timeless_Masterpiece_of_Design__Speed__and_Luxury_1.jpeg" alt="Bugatti Tourbillon">
+            </a>
+        </div>
+        <div class="car-item">
+            <h1>Lamborghini sian-fkp-37</h1>
+            <a href="https://www.lamborghini.com/en-en/models/limited-series/sian-fkp-37" target="_blank">
+                <img src="brian-knapp-sian-green-00.jpg" alt="Lamborghini sian-fkp-37">
+            </a>
+        </div>
+        <div class="car-item">
+            <h1>Laferrari</h1>
+            <a href="https://www.ferrari.com/en-EN/auto/laferrari" target="_blank">
+                <img src="-the-ferrari-laferrari-and-.webp" alt="Laferrari">
+            </a>
+        </div>
+        <div class="car-item">
+            <h1>McLaren W1</h1>
+            <a href="https://cars.mclaren.com/en/W1" target="_blank">
+                <img src="mclaren-w1-3.avif" alt="McLaren W1">
+            </a>
+        </div>
+        <div class="car-item">
+            <h1>Porsche 911 GT3 RS</h1>
+            <a href="https://www.porsche.com/usa/models/911/911-gt3-rs/911-gt3-rs/" target="_blank">
+                <img src="5CCEFD7BFDEC44B0BFEDD8FC51856632_A716CD4802D241E3BE787EF14B813101_911-gt3-rs-side.avif" alt="911 GT3 RS">
+            </a>
+        </div>
+    </div>    
+    <div class="footer">&copy; Created By: DIETHER AFRICA</div>    
+</body>
+</html>
